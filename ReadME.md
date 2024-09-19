@@ -1,30 +1,29 @@
 # Book Management System
 
-## Overview
-
-This is a simple CLI application for managing books and authors. It uses SQLAlchemy ORM with SQLite as the database.
+This is a simple book management system built using Python and SQLAlchemy. It allows users to create books, authors, and genres, add authors and genres to books and view all the books,genres and authors.
 
 ## Features
 
-- Add authors
-- Add books
-- List all authors
-- List all books
-- Show details of a specific author and their books
-- Add sample data with 20 books and multiple authors
+* Create books, authors, and genres
+* Add authors and genres to books
+* View all books, authors, and genres
 
 ## Requirements
 
-- Python 3.7+
-- Pipenv
+* Python 3.8+
+* SQLAlchemy 1.4+
 
-## Setup
+## Installation
 
-1. **Clone the repository:**
+1. Clone the repository: 
+2. Install the requirements: `pip install -r requirements.txt`
+3. Run the application: `python models/cli.py`
 
-   ```bash
-   git clone this repo
-   cd Phase3project
+## Usage
 
-   ## Author
-   Nickson Mogaka
+1. Run the application: `python models/cli.py`
+2. Follow the prompts to create books, authors, and genres, and add authors and genres to books.
+
+## Contributing
+
+Contributions are welcome! Please submit a pull request with your changes.
